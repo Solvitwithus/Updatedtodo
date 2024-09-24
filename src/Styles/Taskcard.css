@@ -1,0 +1,66 @@
+
+.taskcard-container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 25vw;
+}
+
+.taskname-title{
+    font-size: 15px;
+    color: #249E30;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+.card-uppersection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.taskdescriptionsection{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+
+.edit-icon:hover{
+cursor: pointer;
+color: rgb(44, 40, 40);
+
+}
+.delete-icon{
+    color: #FF2500;
+    cursor: pointer;
+    transition: all, 0.3s, ease-in-out;
+}
+
+.delete-icon:hover{
+    opacity: 80%;
+}
+
+.priority-dropdown{
+    background-color: #CD1A1A;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.category-dropdown{
+    background-color: #FDD600;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.lower-section-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

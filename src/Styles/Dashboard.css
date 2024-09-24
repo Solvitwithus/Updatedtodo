@@ -1,0 +1,151 @@
+.dashboard-upper-section{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.dashboard-icon{
+height: 21vh;
+width: 21vw;
+
+}
+.hor-line{
+    border: none;
+    border-bottom: 1px solid #EA5A5A;
+    width: 100vw;
+    opacity: 0.1;
+    display: flex;
+    position: fixed;
+    top: 7em;
+}
+.dash-lander{
+    position: inherit;
+    top: 0em;
+    left: 30em;
+}
+.dash-label{
+    color: #65B864;
+    font-size: x-large;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+.dash-time-label{
+    position: inherit;
+    top: 2em;
+    font-size: medium;
+}
+
+
+.search-container {
+    position:inherit;
+    width: fit-content; /* Adjust the width as needed */
+    
+    left: 50em;
+    top: 3em;
+}
+
+.search {
+    padding: 5px 30px 5px 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add border for the input field */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    width: 200px; /* Set the width of the input field */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #666; /* Set the color of the search icon */
+    cursor: pointer;
+}
+
+.notification-icon{
+    position: absolute;
+    top: 3em;
+    left: 52em;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.btn-container{
+    position:inherit;
+    left: 75em;
+    top: 2.5em;
+    
+}
+.btn_add{
+    background-color: #FF2500;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: #FDD600;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.add-icon{
+    color: #000000;
+    height: 20px;
+    width: 20px;
+    position: inherit;
+    padding-top: 17px;
+    left: 75em;
+    padding-left: 5px;
+}
+
+.body-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 7em;
+}
+
+.header-icon-label {
+    display: flex;
+    flex-direction: row;
+    margin-left: 18em;
+}
+.header-icon-label:first-of-type{
+    margin-left: 5em;
+}
+
+
+
+.header-icon{
+    height: 55px;
+    width: 55px;
+}
+
+
+.header-icons{
+    height: 25px;
+    width: 25px;
+    padding-top: 15px;
+    
+}
+
+.dashboard-body-container{
+   
+    position: relative;
+    top: 6em;
+    left: 0;
+    width: 100vw;
+    height: 76vh;
+
+}
+
+.dashboard{
+    background-color: #FFFFFF;
+    
+}
+
+.taskcrdsplacement{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
